@@ -98,9 +98,9 @@ while guess != my_num:
   print("Sorry, wrong number")
 ```
 What's happening when we run this program?
->
+> The program runs over and over again and doesnt stop.
 Why?
->
+> Since the guess isn't being updated, the code will continue to say that the answer was wrong. The solution involves 'breaking' the loop.
 
 <span style="color: red">
 <b>NOTE:</b> It is important to make sure the condition has a chance to change/update during the while loop. If it doesn't, it could result in an <b>infinite loop</b>
@@ -120,3 +120,4 @@ Pseudocode:
 ```python
 
 ```
+[Title](https://www.youtube.com/watch?v%253DUQn0cKvoFa8)
