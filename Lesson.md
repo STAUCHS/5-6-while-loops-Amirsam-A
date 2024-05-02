@@ -98,9 +98,9 @@ while guess != my_num:
   print("Sorry, wrong number")
 ```
 What's happening when we run this program?
->
+> The program runs over and over again and doesnt stop.
 Why?
->
+> Since the guess isn't being updated, the code will continue to say that the answer was wrong. The solution involves 'breaking' the loop.
 
 <span style="color: red">
 <b>NOTE:</b> It is important to make sure the condition has a chance to change/update during the while loop. If it doesn't, it could result in an <b>infinite loop</b>
@@ -115,8 +115,17 @@ Why?
 Correct attempt:
 ```
 Pseudocode:
+import random 
+
+we need to create something that will start thew while loop
+then we need to print a random number from 1 - 100
+then we need something to stop the number from being generated
+then we ened to ask the user for a guess
+then we need to include something that will check if their number is > or <.
+if they get it write we tell them that they got it right.
 
 ```
 ```python
 
 ```
+[Title](https://www.youtube.com/watch?v%253DUQn0cKvoFa8)
