@@ -115,6 +115,14 @@ Why?
 Correct attempt:
 ```
 Pseudocode:
+import random 
+
+we need to create something that will start thew while loop
+then we need to print a random number from 1 - 100
+then we need something to stop the number from being generated
+then we ened to ask the user for a guess
+then we need to include something that will check if their number is > or <.
+if they get it write we tell them that they got it right.
 
 ```
 ```python
